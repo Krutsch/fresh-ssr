@@ -34,10 +34,10 @@ export default function HydroIsland({
     hydrate();
   }, [component]);
 
-  return ssrHtml ? (
-    // deno-lint-ignore react-no-danger
-    <div ref={ref} dangerouslySetInnerHTML={{ __html: ssrHtml }} />
-  ) : (
-    <div ref={ref}>Loading...</div>
-  );
+  return ssrHtml
+    ? (
+      // deno-lint-ignore react-no-danger
+      <div ref={ref} dangerouslySetInnerHTML={{ __html: ssrHtml }} />
+    )
+    : <div ref={ref}>Loading...</div>;
 }
