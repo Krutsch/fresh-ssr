@@ -12,13 +12,13 @@
   "imports": {
     "@/": "./",
     "fresh": "jsr:@fresh/core@^2.3.3",
-    "preact": "npm:preact@^10.29.4",
-    "@preact/signals": "npm:@preact/signals@^2.9.2",
+    "preact": "npm:preact@^10.29.1",
+    "@preact/signals": "npm:@preact/signals@^2.9.0",
     "@fresh/plugin-vite": "jsr:@fresh/plugin-vite@^1.1.2",
     "vite": "npm:vite@^7.3.6",
     "tailwindcss": "npm:tailwindcss@^4.3.2",
     "@tailwindcss/vite": "npm:@tailwindcss/vite@^4.3.2",
-    "hydro-js": "npm:hydro-js@^1.9.0",
+    "hydro-js": "npm:hydro-js@^1.9.1",
     "happy-dom": "npm:happy-dom@^20.10.6"
   },
   "compilerOptions": {
